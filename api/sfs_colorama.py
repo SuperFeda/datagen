@@ -1,0 +1,28 @@
+class TextColor:
+    BLACK: str = "\x1b[30m"
+    RED: str = "\x1b[31m"
+    GREEN: str = "\x1b[32m"
+    YELLOW: str = "\x1b[33m"
+    BLUE: str = "\x1b[34m"
+    MAGENTA: str = "\x1b[35m"
+    CYAN: str = "\x1b[36m"
+    WHITE: str = "\x1b[37m"
+    DEFAULT: str = "\x1b[39m"
+    LIGHT_GRAY: str = "\x1b[90m"
+    LIGHT_RED: str = "\x1b[91m"
+    LIGHT_GREEN: str = "\x1b[92m"
+    LIGHT_YELLOW: str = "\x1b[93m"
+    LIGHT_BLUE: str = "\x1b[94m"
+    LIGHT_MAGENTA: str = "\x1b[95m"
+    LIGHT_CYAN: str = "\x1b[96m"
+    LIGHT_WHITE: str = "\x1b[97m"
+
+
+class TextStyle:
+    BOLD: str = "\x1b[1m"
+    UNDERLINE: str = "\x1b[4m"
+    BLINK: str = "\x1b[5m"
+    OFF_BOLD: str = "\x1b[21m"
+    OFF_UNDERLINE: str = "\x1b[24m"
+    OFF_BLINK: str = "\x1b[25m"
+    OFF_ALL_STYLES: str = "\x1b[0m"
